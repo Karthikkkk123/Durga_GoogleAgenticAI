@@ -160,10 +160,24 @@ npm run dev
 ## What technologies are used for this project?
 
 This project is built with:
+#Backend: 
+- FireStore Database
+- Firebase Studio
+- Vertex AI
+- ADK (Agentic Development Kit)
+- Google Cloud Platform
+- Vertex Vision
+- Google API
+- Gemini Veo 3
+- Gemini Imagen
+- MCP Tool-Box
+- ElevenLabs
 
-- Vite
+#Frontend: 
 - TypeScript
 - React
-- shadcn-ui
+- Vite
 - Tailwind CSS
+- HTML
+- CSS
 
