@@ -181,3 +181,63 @@ This project is built with:
 - HTML
 - CSS
 
+## Project Folder Structure
+
+```
+shiksha-saathi-main/
+├── Features/
+│   ├── Agentic/
+│   │   └── develop/
+│   │       ├── app.yaml
+│   │       ├── main.py
+│   │       ├── requirements.txt
+│   │       ├── sahayak_analytics.py
+│   │       ├── static/
+│   │       └── templates/
+│   ├── EduAI_Insights/
+│   │   ├── src/
+│   │   │   ├── ai/
+│   │   │   ├── app/
+│   │   │   ├── components/
+│   │   │   ├── hooks/
+│   │   │   └── lib/
+│   │   └── docs/
+│   ├── Exam_Guide/
+│   │   ├── src/
+│   │   │   ├── ai/
+│   │   │   ├── app/
+│   │   │   ├── components/
+│   │   │   ├── hooks/
+│   │   │   ├── lib/
+│   │   │   └── services/
+│   │   └── docs/
+│   ├── Frontend-master/
+│   │   ├── public/
+│   │   │   ├── chemistry/
+│   │   │   ├── maths/
+│   │   │   └── [simulation files]
+│   │   └── src/
+│   ├── Inclusive_Assessment/
+│   │   └── emotion/
+│   ├── Sahayak_Story/
+│   │   └── src/
+│   └── Studio-master/
+│       └── src/
+├── public/
+│   └── lovable-uploads/
+├── src/
+│   ├── components/
+│   │   └── ui/
+│   ├── hooks/
+│   ├── lib/
+│   └── pages/
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── [other config files]
+```
+
+Each feature in the `Features/` directory is a self-contained module with its own implementation, configuration, and documentation. The main frontend application in the root `src/` directory serves as the unified interface for all these features.
+
+## Development Tools
+
