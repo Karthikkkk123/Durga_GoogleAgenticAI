@@ -42,60 +42,158 @@ The application will be available at `http://localhost:5173` (or the port shown 
 
 Our features are organized in the `Features/` directory:
 
-### 1. EduAI Insights
-**Purpose**: AI-powered teaching analytics and engagement monitoring
-[Add detailed description of EduAI Insights feature here]
+#🔁 Master Workflow: AI-Driven Teaching Assistant for Multigrade Classrooms
+###🧠 1. Teacher Prompt Initiation
+Voice/typed input:
+“I want to teach fractions to Grades 3–5 in Hindi using local stories.”
 
-Key Components:
-- Response Analysis
-- Engagement Tips
-- Metric Dashboard
-- Summary Message Generation
+Captured parameters:
 
-### 2. Exam Guide (GradeWise)
-**Purpose**: Intelligent exam grading and assessment system
-[Add detailed description of Exam Guide feature here]
+Topic, subject, grade range
 
-Key Components:
-- Document Upload & OCR
-- AI-Powered Grading
-- Results Report Generation
-- Student Profile Management
+Teaching style and regional preferences
 
-### 3. Frontend Navigation
-**Purpose**: Educational content navigation system
-[Add detailed description of Frontend Navigation feature here]
+Curriculum-aligned outcomes
 
-Key Components:
-- Subject-wise Organization
-- Topic Navigation
-- Interactive Content Display
-- HTML Optimization
+🎯 This initiates intelligent orchestration using Speech-to-Text + NLP.
 
-### 4. Inclusive Assessment (EmotionLearn)
-**Purpose**: Emotion-aware learning platform
-[Add detailed description of EmotionLearn feature here]
+###🧭 2. Content Generation by Central Agent
+Core Modules Triggered:
 
-Key Components:
-- Voice Call Integration
-- Student State Detection
-- Interactive Quiz System
-- Analytics Dashboard
+Lesson Planner Agent:
 
-### 5. Sahayak Story
-**Purpose**: Multilingual content generation and translation
-[Add detailed description of Sahayak Story feature here]
+Breaks topic into steps, learning goals, Bloom’s levels
 
-Key Components:
-- Language Translation
-- Content Generation
-- Image Generation
-- PDF Compilation
+Story Agent:
 
-### 6. Studio (InterviewPrepAI)
-**Purpose**: AI-powered interview preparation system
-[Add detailed description of Studio feature here]
+Generates culturally relevant, multilingual narratives
 
+Worksheet Generator:
+
+Differentiated practice materials (easy, medium, advanced)
+
+Visual Asset Agent:
+
+Simple diagrams, blackboard sketches using DALL·E
+
+🧩 All materials are packaged as a ready-to-teach resource kit.
+
+###📚 3. Student Interaction Phase I – Reading Fluency Assessment
+Audio-Based Assessment via ElevenLabs + MCP
+
+Student reads content aloud → Real-time transcription + analysis
+
+Metrics captured:
+
+Mispronunciations
+
+Pauses/hesitations
+
+Reading speed
+
+Comprehension questions asked
+
+📊 Output: Fluency Report with pronunciation score, vocabulary gaps, and regional noise adaptability.
+
+###📽 4. Student Interaction Phase II – Emotion-Behavior Based Video Mock Exam
+Mock quiz attempted on screen + webcam activated
+
+Real-time analytics capture:
+
+Cursor trails → restlessness
+
+Option switches → confusion
+
+Idle time → disengagement
+
+Emotion map generated (from facial data — detached heatmap)
+
+Calm (🟢), Focused (🟡), Frustrated (🔴)
+
+🎥 Output: Cognitive-Emotional Engagement Report
+
+###🧾 5. Central Agent – Performance Profiling
+Aggregates reading + behavior analytics
+
+Generates a holistic student profile, including:
+
+Concept mastery
+
+Reading fluency
+
+Engagement confidence
+
+Distraction/restlessness index
+
+Stored in Firebase + RAG for longitudinal analysis
+
+📈 Enables time-based tracking of student growth.
+
+###♿ 6. Inclusive Special Needs Module
+Automatically triggered for:
+
+Unusual behavior/emotion markers
+
+Repeated disengagement
+
+Voice-based cues of comprehension failure
+
+Generates:
+
+Simplified audio-visual content
+
+Individualized learning strategies
+
+Adaptive worksheet plans
+
+✅ Special needs learners are supported without singling them out.
+
+###📬 7. Teacher Dashboard – Insights & Reporting
+Receives:
+
+Individual student reports
+
+Comparative performance visualizations
+
+Flags for intervention
+
+Class-wide learning gap trends
+
+🧑‍🏫 Enables data-driven micro-teaching for large classrooms.
+
+###🗣 8. Teacher Feedback to Lesson Feedback Agent
+Optional voice/text input like:
+“The story was too fast-paced for Grade 3; include local terms like ‘gilli danda’.”
+
+Captured as feedback signals:
+
+Difficulty level
+
+Pedagogical tone
+
+Cultural mismatch
+
+🔄 Feedback triggers content evolution loop.
+
+###♻ 9. Regeneration of Improved Content
+Using previous student data + teacher feedback:
+
+Adjust pacing, visuals, vocabulary
+
+Simplify story flow
+
+Recommend retention strategies
+
+🎯 Next-gen lesson kit is even more tailored.
+
+###🌱 10. Adaptive Teaching Cycle Resumes
+Teacher receives new lesson pack
+
+Students re-engage with personalized aids
+
+System continues to log interactions
+
+Learning becomes cyclic, adaptive, and responsive.
 Key Components:
 - Teacher Dashboard
 - Question Generation
