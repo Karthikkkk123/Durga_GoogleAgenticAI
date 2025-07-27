@@ -43,7 +43,7 @@ The application will be available at `http://localhost:5173` (or the port shown 
 Our features are organized in the `Features/` directory:
 
 #🔁 Master Workflow: AI-Driven Teaching Assistant for Multigrade Classrooms
-###🧠 1. Teacher Prompt Initiation
+### 🧠 1. Teacher Prompt Initiation
 Voice/typed input:
 “I want to teach fractions to Grades 3–5 in Hindi using local stories.”
 
@@ -57,7 +57,7 @@ Curriculum-aligned outcomes
 
 🎯 This initiates intelligent orchestration using Speech-to-Text + NLP.
 
-###🧭 2. Content Generation by Central Agent
+### 🧭 2. Content Generation by Central Agent
 Core Modules Triggered:
 
 Lesson Planner Agent:
@@ -78,7 +78,7 @@ Simple diagrams, blackboard sketches using DALL·E
 
 🧩 All materials are packaged as a ready-to-teach resource kit.
 
-###📚 3. Student Interaction Phase I – Reading Fluency Assessment
+### 📚 3. Student Interaction Phase I – Reading Fluency Assessment
 Audio-Based Assessment via ElevenLabs + MCP
 
 Student reads content aloud → Real-time transcription + analysis
@@ -95,7 +95,7 @@ Comprehension questions asked
 
 📊 Output: Fluency Report with pronunciation score, vocabulary gaps, and regional noise adaptability.
 
-###📽 4. Student Interaction Phase II – Emotion-Behavior Based Video Mock Exam
+### 📽 4. Student Interaction Phase II – Emotion-Behavior Based Video Mock Exam
 Mock quiz attempted on screen + webcam activated
 
 Real-time analytics capture:
@@ -112,7 +112,7 @@ Calm (🟢), Focused (🟡), Frustrated (🔴)
 
 🎥 Output: Cognitive-Emotional Engagement Report
 
-###🧾 5. Central Agent – Performance Profiling
+### 🧾 5. Central Agent – Performance Profiling
 Aggregates reading + behavior analytics
 
 Generates a holistic student profile, including:
@@ -129,7 +129,7 @@ Stored in Firebase + RAG for longitudinal analysis
 
 📈 Enables time-based tracking of student growth.
 
-###♿ 6. Inclusive Special Needs Module
+### ♿ 6. Inclusive Special Needs Module
 Automatically triggered for:
 
 Unusual behavior/emotion markers
@@ -148,7 +148,7 @@ Adaptive worksheet plans
 
 ✅ Special needs learners are supported without singling them out.
 
-###📬 7. Teacher Dashboard – Insights & Reporting
+### 📬 7. Teacher Dashboard – Insights & Reporting
 Receives:
 
 Individual student reports
@@ -161,7 +161,7 @@ Class-wide learning gap trends
 
 🧑‍🏫 Enables data-driven micro-teaching for large classrooms.
 
-###🗣 8. Teacher Feedback to Lesson Feedback Agent
+### 🗣 8. Teacher Feedback to Lesson Feedback Agent
 Optional voice/text input like:
 “The story was too fast-paced for Grade 3; include local terms like ‘gilli danda’.”
 
@@ -175,7 +175,7 @@ Cultural mismatch
 
 🔄 Feedback triggers content evolution loop.
 
-###♻ 9. Regeneration of Improved Content
+### ♻ 9. Regeneration of Improved Content
 Using previous student data + teacher feedback:
 
 Adjust pacing, visuals, vocabulary
@@ -186,7 +186,7 @@ Recommend retention strategies
 
 🎯 Next-gen lesson kit is even more tailored.
 
-###🌱 10. Adaptive Teaching Cycle Resumes
+### 🌱 10. Adaptive Teaching Cycle Resumes
 Teacher receives new lesson pack
 
 Students re-engage with personalized aids
