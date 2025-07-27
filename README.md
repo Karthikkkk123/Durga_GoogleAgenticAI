@@ -239,5 +239,5 @@ shiksha-saathi-main/
 
 Each feature in the `Features/` directory is a self-contained module with its own implementation, configuration, and documentation. The main frontend application in the root `src/` directory serves as the unified interface for all these features.
 
-## Development Tools
+
 
